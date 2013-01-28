@@ -1,0 +1,43 @@
+#main_wrapper ul.kwicks {
+	list-style: none outside none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.kwicks li {
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 200px;
+	height: 300px;
+
+	/*do not change these */
+	display: block;
+	overflow: hidden;
+	padding: 0;  /* if you need padding, do so with an inner div (or implement your own box-model hack) */
+}
+.kwicks.horizontal li {
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-right: 5px; /*Set to same as spacing option. */	
+	float: left;
+}
+.kwicks.vertical li {
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-bottom: 5px; /*Set to same as spacing option. */	
+}
+
+.kwicks.horizontal li #last {
+	margin-right: 0; /* cancel margin on last kiwck (if you set a margin above) */
+}
+.kwicks.vertical li #last {
+	margin-bottom: 0; /* cancel margin on last kiwck (if you set a margin above) */
+}
+
+.kwicks.horizontal p.title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 900px; /** That's the width of the image less the width of the padding on each side **/
+	z-index: 99;
+}

@@ -1,0 +1,552 @@
+# Copyright (C) 2010 Cold Theme
+# This file is distributed under the same license as the Cold Theme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cold Theme 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-25 16:34:13+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-04-26 00:36+0100\n"
+"Last-Translator: Bartosz Romanowski <toszcze@gmail.com>\n"
+"Language-Team: \n"
+"X-Poedit-Language: English\n"
+
+#: 404.php:16
+#: 404.php:26
+msgid "Page not Found"
+msgstr ""
+
+#: 404.php:30
+#: search.php:31
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: 404.php:33
+#: header.php:118
+msgid "Search..."
+msgstr ""
+
+#: 404.php:34
+#: inc/tools.php:120
+#: main-intro-box.php:9
+#: main-intro-box.php:13
+msgid "Search"
+msgstr ""
+
+#: 404.php:39
+msgid "Go to the <a href=\"%1$s\">homepage</a>"
+msgstr ""
+
+#: blog-intro-box.php:26
+#: index.php:31
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: blog-intro-box.php:28
+#: index.php:33
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: blog-intro-box.php:30
+#: index.php:35
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: comments.php:10
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:19
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:25
+#: comments.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:26
+#: comments.php:39
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:46
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:53
+msgid "Name"
+msgstr ""
+
+#: comments.php:55
+msgid "Email"
+msgstr ""
+
+#: comments.php:57
+msgid "Website"
+msgstr ""
+
+#: comments.php:61
+msgid "Your email address will not be published."
+msgstr ""
+
+#: functions.php:89
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:514
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:518
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:518
+#: functions.php:533
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:533
+msgid "Pingback:"
+msgstr ""
+
+#: header.php:119
+msgid "Go"
+msgstr ""
+
+#: inc/custom-post-types.php:5
+#: inc/custom-post-types.php:6
+#: inc/custom-post-types.php:7
+msgid "Slideshows"
+msgstr ""
+
+#: inc/custom-post-types.php:8
+msgid "Edit Slideshow"
+msgstr ""
+
+#: inc/custom-post-types.php:9
+msgid "Update Slideshow"
+msgstr ""
+
+#: inc/custom-post-types.php:10
+msgid "Add New Slideshow"
+msgstr ""
+
+#: inc/custom-post-types.php:11
+msgid "New Slideshow Name"
+msgstr ""
+
+#: inc/custom-post-types.php:12
+msgid "Search Slideshows"
+msgstr ""
+
+#: inc/custom-post-types.php:13
+msgid "Parent Slideshow"
+msgstr ""
+
+#: inc/custom-post-types.php:28
+msgid "Slides"
+msgstr ""
+
+#: inc/custom-post-types.php:29
+msgid "Slide"
+msgstr ""
+
+#: inc/custom-post-types.php:30
+msgid "Add New Slide"
+msgstr ""
+
+#: inc/custom-post-types.php:31
+msgid "Edit Slide"
+msgstr ""
+
+#: inc/custom-post-types.php:32
+msgid "New Slide"
+msgstr ""
+
+#: inc/custom-post-types.php:33
+msgid "View Slide"
+msgstr ""
+
+#: inc/custom-post-types.php:34
+msgid "Search Slides"
+msgstr ""
+
+#: inc/custom-post-types.php:35
+msgid "No slides found"
+msgstr ""
+
+#: inc/custom-post-types.php:53
+msgid "Slideshow"
+msgstr ""
+
+#: inc/custom-post-types.php:66
+msgid "None"
+msgstr ""
+
+#: inc/custom-post-types.php:73
+#: inc/custom-post-types.php:74
+msgid "Portfolio"
+msgstr ""
+
+#: inc/custom-post-types.php:75
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: inc/custom-post-types.php:76
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: inc/custom-post-types.php:77
+msgid "New Portfolio Item"
+msgstr ""
+
+#: inc/custom-post-types.php:78
+msgid "View Portfolio Item"
+msgstr ""
+
+#: inc/custom-post-types.php:79
+msgid "Search Portfolio"
+msgstr ""
+
+#: inc/custom-post-types.php:80
+msgid "No portfolio items found"
+msgstr ""
+
+#: inc/custom-post-types.php:117
+msgid "Portfolio Categories"
+msgstr ""
+
+#: inc/custom-post-types.php:122
+msgid "Portfolio Tags"
+msgstr ""
+
+#: inc/custom-post-types.php:178
+msgid "Category"
+msgstr ""
+
+#: inc/custom-post-types.php:179
+#: inc/widgets.php:528
+#: sidebar-blog.php:15
+msgid "Tags"
+msgstr ""
+
+#: inc/custom-sidebars.php:50
+#: inc/custom-sidebars.php:57
+msgid "Manage Sidebars"
+msgstr ""
+
+#: inc/custom-sidebars.php:50
+msgid "Sidebars"
+msgstr ""
+
+#: inc/custom-sidebars.php:67
+msgid "New sidebar added."
+msgstr ""
+
+#: inc/custom-sidebars.php:83
+msgid "Sidebar removed."
+msgstr ""
+
+#: inc/custom-sidebars.php:88
+#: inc/custom-sidebars.php:89
+msgid "Sidebar Name"
+msgstr ""
+
+#: inc/custom-sidebars.php:88
+#: inc/custom-sidebars.php:89
+msgid "Action"
+msgstr ""
+
+#: inc/custom-sidebars.php:95
+msgid "The default sidebar can't be removed"
+msgstr ""
+
+#: inc/custom-sidebars.php:99
+msgid "Add new sidebar"
+msgstr ""
+
+#: inc/custom-sidebars.php:122
+#: inc/custom-sidebars.php:125
+#: inc/meta-boxes.php:36
+msgid "Sidebar"
+msgstr ""
+
+#: inc/custom-sidebars.php:135
+#: inc/custom-sidebars.php:138
+msgid "Select a custom sidebar for this category or pick \"default\" for default blog sidebar."
+msgstr ""
+
+#: inc/meta-boxes.php:11
+msgid "Slide options"
+msgstr ""
+
+#: inc/meta-boxes.php:16
+msgid "Target URL (optional)"
+msgstr ""
+
+#: inc/meta-boxes.php:30
+msgid "Custom Sidebar"
+msgstr ""
+
+#: inc/meta-boxes.php:51
+msgid "Slide Image"
+msgstr ""
+
+#: inc/shortcodes.php:325
+msgid "more details"
+msgstr ""
+
+#: inc/shortcodes.php:1047
+#: inc/widgets.php:332
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/shortcodes.php:1096
+#: inc/widgets.php:438
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/shortcodes.php:1132
+msgid "Last Tweets"
+msgstr ""
+
+#: inc/shortcodes.php:1386
+msgid "Recent Works"
+msgstr ""
+
+#: inc/shortcodes.php:1386
+#: inc/shortcodes.php:1420
+msgid "view all"
+msgstr ""
+
+#: inc/shortcodes.php:1420
+msgid "Recent Blog Posts"
+msgstr ""
+
+#: inc/sliders.php:303
+msgid "Start"
+msgstr ""
+
+#: inc/sliders.php:304
+msgid "Stop"
+msgstr ""
+
+#: inc/tools.php:122
+#: portfolio-1column-sidebar.php:56
+#: portfolio-2columns-fullwidth.php:52
+#: portfolio-2columns-sidebar.php:57
+#: portfolio-3columns-fullwidth.php:51
+#: portfolio-4columns-fullwidth.php:51
+#: portfolio-big-list-fullwidth.php:52
+#: portfolio-list-sidebar.php:57
+#: portfolio-medium-list-fullwidth.php:52
+#: portfolio-small-list-fullwidth.php:52
+#: search.php:30
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/tools.php:139
+msgid "Archive"
+msgstr ""
+
+#: inc/widgets.php:6
+msgid "A list of last tweets"
+msgstr ""
+
+#: inc/widgets.php:7
+msgid "Cold Twitter"
+msgstr ""
+
+#: inc/widgets.php:13
+msgid "Twitter"
+msgstr ""
+
+#: inc/widgets.php:47
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: inc/widgets.php:76
+#: inc/widgets.php:143
+#: inc/widgets.php:193
+#: inc/widgets.php:286
+#: inc/widgets.php:398
+#: inc/widgets.php:504
+#: inc/widgets.php:562
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets.php:79
+msgid "Twitter username:"
+msgstr ""
+
+#: inc/widgets.php:82
+msgid "Number of tweets to show:"
+msgstr ""
+
+#: inc/widgets.php:86
+msgid "Show status time"
+msgstr ""
+
+#: inc/widgets.php:89
+msgid "Make usernames clickable"
+msgstr ""
+
+#: inc/widgets.php:92
+msgid "Make URLs clickable"
+msgstr ""
+
+#: inc/widgets.php:95
+msgid "Add \"Follow Me\" Message"
+msgstr ""
+
+#: inc/widgets.php:105
+msgid "A list of portfolio tags"
+msgstr ""
+
+#: inc/widgets.php:106
+msgid "Cold Portfolio Tags"
+msgstr ""
+
+#: inc/widgets.php:154
+msgid "A list of portfolio categories"
+msgstr ""
+
+#: inc/widgets.php:155
+msgid "Cold Portfolio Categories"
+msgstr ""
+
+#: inc/widgets.php:197
+msgid "Hierarchical"
+msgstr ""
+
+#: inc/widgets.php:207
+msgid "A subpages navigation"
+msgstr ""
+
+#: inc/widgets.php:208
+msgid "Cold Subpages"
+msgstr ""
+
+#: inc/widgets.php:228
+#: inc/widgets.php:235
+msgid "Flickr Photos"
+msgstr ""
+
+#: inc/widgets.php:229
+msgid "Cold Flickr"
+msgstr ""
+
+#: inc/widgets.php:289
+msgid "Flickr user ID:"
+msgstr ""
+
+#: inc/widgets.php:292
+msgid "Number of photos to show:"
+msgstr ""
+
+#: inc/widgets.php:296
+msgid "Enable PrettyPhoto"
+msgstr ""
+
+#: inc/widgets.php:299
+msgid "Show random photos"
+msgstr ""
+
+#: inc/widgets.php:309
+msgid "The most recent posts on your site"
+msgstr ""
+
+#: inc/widgets.php:310
+msgid "Cold Recent Posts"
+msgstr ""
+
+#: inc/widgets.php:401
+#: inc/widgets.php:507
+msgid "Categories slugs<br />(comma separated, empty for all):"
+msgstr ""
+
+#: inc/widgets.php:404
+#: inc/widgets.php:510
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets.php:415
+msgid "The most popular posts on your site"
+msgstr ""
+
+#: inc/widgets.php:416
+msgid "Cold Popular Posts"
+msgstr ""
+
+#: inc/widgets.php:521
+msgid "A list of blog post tags"
+msgstr ""
+
+#: inc/widgets.php:522
+msgid "Cold Post Tags"
+msgstr ""
+
+#: index.php:37
+msgid "Tag Archives: <span>%s</span>"
+msgstr ""
+
+#: index.php:54
+msgid " by "
+msgstr ""
+
+#: index.php:54
+msgid "in "
+msgstr ""
+
+#: index.php:54
+msgid "Edit"
+msgstr ""
+
+#: index.php:95
+msgid "About the Author"
+msgstr ""
+
+#: index.php:99
+msgid "Written by"
+msgstr ""
+
+#: navigation.php:5
+#: portfolio-1column-sidebar.php:63
+#: portfolio-2columns-fullwidth.php:59
+#: portfolio-2columns-sidebar.php:63
+#: portfolio-3columns-fullwidth.php:58
+#: portfolio-4columns-fullwidth.php:58
+#: portfolio-big-list-fullwidth.php:59
+#: portfolio-list-sidebar.php:64
+#: portfolio-medium-list-fullwidth.php:59
+#: portfolio-small-list-fullwidth.php:59
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: navigation.php:6
+#: portfolio-1column-sidebar.php:64
+#: portfolio-2columns-fullwidth.php:60
+#: portfolio-2columns-sidebar.php:64
+#: portfolio-3columns-fullwidth.php:59
+#: portfolio-4columns-fullwidth.php:59
+#: portfolio-big-list-fullwidth.php:60
+#: portfolio-list-sidebar.php:65
+#: portfolio-medium-list-fullwidth.php:60
+#: portfolio-small-list-fullwidth.php:60
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar-blog.php:9
+msgid "Categories"
+msgstr ""
+

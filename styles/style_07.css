@@ -1,0 +1,249 @@
+/* ---------------------------------------- */
+/* main, reset */
+body  {
+	background-color: #eeeaf2;
+}
+html,
+#footer_wrapper  {
+	background-color: #32172a;
+}
+#header_wrapper  {
+	background-color: #32172a;
+	background-image: url('../images/bg/bg26.png');
+	background-repeat: repeat;
+}
+html,
+body,
+form {
+	color: #666;
+}
+
+/* forms */
+input,
+textarea,
+button,
+select,
+option {
+	color: #888;
+}
+
+/* links */
+a {
+	color: #aba6ad;
+}
+a:hover {
+	color: #9a969c;
+}
+
+#sidebar a {
+	color: #999;
+}
+#sidebar a:hover {
+	color: #666;
+}
+
+/* social icons */
+#social_icons a img {
+	filter: alpha(opacity=25);
+	opacity: 0.25;
+}
+#social_icons a:hover img {
+	filter: alpha(opacity=45);
+	opacity: 0.45;
+}
+
+/* navigation */
+#navigation {
+	background: rgb(38, 16, 31);
+	background: rgba(38, 16, 31, 0.5);
+}
+.sf-menu a {
+	color: #dcd6df;
+}
+.sf-menu li:hover a,
+.sf-menu li.current-menu-item a,
+.sf-menu li.current-page-parent a,
+.sf-menu li.current-page-ancestor a  {
+	color: #fff;
+	border-bottom-color: #a06a99;
+}
+
+.sf-menu li ul {
+	border-top-color: #a06a99;
+}
+.sf-menu li:hover li a,
+.sf-menu li li a,
+.sf-menu li.current-menu-item li a,
+.sf-menu li.current-page-parent li a,
+.sf-menu li li.current-menu-item li a,
+.sf-menu li.current-page-ancestor li a {
+	color: #999;
+	background:	#f5f5f5;
+}
+.sf-menu li:hover li a:hover,
+.sf-menu li li.current-menu-item a {
+	color: #a06a99;
+	background: #fff;
+}
+
+/* ---------------------------------------- */
+/* headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #444;
+}
+#footer h1,
+#footer h2,
+#footer h3,
+#footer h4,
+#footer h5,
+#footer h6 {
+	color: #a06a99;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: #a06a99;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+	color: #b87ab0;
+}
+
+/* intro */
+#intro {
+	color: #bab5bd;
+}
+#intro strong {
+	color: #a06a99;
+}
+#intro h1,
+#intro h2,
+#intro h3,
+#intro h4,
+#intro h5,
+#intro h6 {
+	color: #a06a99;
+}
+#intro a {
+	color: #ada9b0;
+}
+
+/* ---------------------------------------- */
+/* forms */
+form input[type="submit"] {
+	background-color: #a06a99;
+	color: #fff;
+	background-image: url('../images/gradient-btn.png');
+}
+#search form input[type="submit"] {
+	background-color: #989b9f;
+	color: #fff;
+}
+
+/* ---------------------------------------- */
+/* footer */
+#footer {
+	background-color: #e9e5ed;
+	box-shadow: 4px 0 0 rgba(0, 0, 0, 0.02),-4px 0 0 rgba(0, 0, 0, 0.02);
+	-moz-box-shadow: 4px 0 0 rgba(0, 0, 0, 0.02),-4px 0 0 rgba(0, 0, 0, 0.02);
+	-webkit-box-shadow: 4px 0 0 rgba(0, 0, 0, 0.02),-4px 0 0 rgba(0, 0, 0, 0.02);
+}
+#footer,
+#footer form {
+	color: #8f8b91;
+}
+#footer a {
+	color: #aba6ad;
+}
+
+/* copyright */
+#copyright {
+	background: #aba6ad;
+	color: #e9e5ed;
+	box-shadow: 4px 0 0 rgba(0, 0, 0, 0.02),-4px 0 0 rgba(0, 0, 0, 0.02),0 4px 0 rgba(0, 0, 0, 0.02);
+	-moz-box-shadow: 4px 0 0 rgba(0, 0, 0, 0.02),-4px 0 0 rgba(0, 0, 0, 0.02),0 4px 0 rgba(0, 0, 0, 0.02);
+	-webkit-box-shadow: 4px 0 0 rgba(0, 0, 0, 0.02),-4px 0 0 rgba(0, 0, 0, 0.02),0 4px 0 rgba(0, 0, 0, 0.02);
+}
+#copyright a {
+	color: #fff;
+}
+
+/* ---------------------------------------- */
+/* pricing boxes */
+.featured-box {
+	border-color: #a06a99 !important;
+}
+.featured-box h3 {
+	background: #a06a99 !important;
+	color: #fff !important;
+}
+.featured-box strong {
+	color: #a06a99 !important;
+}
+
+/* featured */
+.nivo-caption,
+.kwicks.horizontal p.title {
+	background-color: #4a4e53;
+	color: #fff;
+}
+
+/* ---------------------------------------- */
+/* Featured boxes */
+#featured-boxes {
+	color: #eee;
+	border-top: 4px solid #4a3343;
+}
+#featured-boxes:hover {
+	border-top-color: #a06a99;
+}
+#featured-boxes li {
+	background-color: #4d334a;
+}
+#featured-boxes li.featured-dark {
+	background-color: #32172a;
+}
+#featured-boxes li:hover {
+	background-color: #a06a99;
+}
+
+#featured-boxes h4 {
+	color: #fff;
+}
+
+#featured-boxes a,
+#featured-boxes h4 a {
+	color: #fff;
+}
+
+/* ---------------------------------------- */
+/* widgets */
+#sidebar .widgets,
+#page-content .widgets {
+	color: #666;
+	background: #f5f5f5;
+	border: 1px solid #eee;
+}
+
+#sidebar .widgets h3,
+#page-content .widgets h3 {
+	color: #666;
+}
+
+/* post meta */
+.sticky .meta-date {
+	background-color: #a06a99;
+}

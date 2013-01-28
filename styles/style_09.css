@@ -1,0 +1,243 @@
+/* ---------------------------------------- */
+/* main, reset */
+body  {
+	background-color: #6d7568;
+}
+html,
+#footer_wrapper  {
+	background-color: #1d4051;
+}
+#header_wrapper  {
+	background-color: #073851;
+	background-image: url('../images/bg/bg32.png');
+	background-repeat: repeat;
+}
+html,
+body,
+form {
+	color: #666;
+}
+
+/* forms */
+input,
+textarea,
+button,
+select,
+option {
+	color: #888;
+}
+
+/* links */
+a {
+	color: #a09778;
+}
+a:hover {
+	color: #6d7568;
+}
+
+#sidebar a {
+	color: #999;
+}
+#sidebar a:hover {
+	color: #666;
+}
+
+/* social icons */
+#social_icons a img {
+	filter: alpha(opacity=95);
+	opacity: 0.95;
+}
+#social_icons a:hover img {
+	filter: alpha(opacity=85);
+	opacity: 0.85;
+}
+
+/* navigation */
+#navigation {
+	background: rgb(7, 55, 81);
+	background: rgba(7, 55, 81, 0.9);
+}
+.sf-menu a {
+	color: #fff1bf;
+}
+.sf-menu li:hover a,
+.sf-menu li.current-menu-item a,
+.sf-menu li.current-page-parent a,
+.sf-menu li.current-page-ancestor a  {
+	color: #fff;
+	border-bottom-color: #2193cd;
+}
+
+.sf-menu li ul {
+	border-top-color: #2193cd;
+}
+.sf-menu li:hover li a,
+.sf-menu li li a,
+.sf-menu li.current-menu-item li a,
+.sf-menu li.current-page-parent li a,
+.sf-menu li li.current-menu-item li a,
+.sf-menu li.current-page-ancestor li a {
+	color: #888;
+	background:	#f5f5f5;
+}
+.sf-menu li:hover li a:hover,
+.sf-menu li li.current-menu-item a {
+	color: #2193cd;
+	background: #fff;
+}
+
+/* ---------------------------------------- */
+/* headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #444;
+}
+#footer h1,
+#footer h2,
+#footer h3,
+#footer h4,
+#footer h5,
+#footer h6 {
+	color: #a29979;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: #28b6ff;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+	color: #2193cd;
+}
+
+/* intro */
+#intro {
+	color: #999;
+}
+#intro strong {
+	color: #28b6ff;
+}
+#intro h1,
+#intro h2,
+#intro h3,
+#intro h4,
+#intro h5,
+#intro h6 {
+	color: #28b6ff;
+}
+#intro a {
+	color: #888;
+}
+
+/* ---------------------------------------- */
+/* forms */
+form input[type="submit"] {
+	background-color: #28b6ff;
+	color: #fff;
+	background-image: url('../images/gradient-btn.png');
+}
+#search form input[type="submit"] {
+	background-color: #70786b;
+	color: #fff;
+}
+
+/* ---------------------------------------- */
+/* footer */
+#footer {
+	background-color: #1D4051;
+}
+#footer,
+#footer form {
+	color: #aaa;
+}
+#footer a {
+	color: #2193cd;
+}
+
+/* copyright */
+#copyright {
+	background: #6d7568;
+	color: #d3d4d5;
+}
+#copyright a {
+	color: #fff;
+}
+
+/* ---------------------------------------- */
+/* pricing boxes */
+.featured-box {
+	border-color: #a09778 !important;
+}
+.featured-box h3 {
+	background: #a09778 !important;
+	color: #fff !important;
+}
+.featured-box 28b6ff {
+	color: #a09778 !important;
+}
+
+/* featured */
+.nivo-caption,
+.kwicks.horizontal p.title {
+	background-color: #4a4e53;
+	color: #fff;
+}
+
+/* ---------------------------------------- */
+/* Featured boxes */
+#featured-boxes {
+	color: #eee;
+	border-top: 4px solid #073851;
+}
+#featured-boxes:hover {
+	border-top-color: #2193cd;
+}
+#featured-boxes li {
+	background-color: #195b7d;
+}
+#featured-boxes li.featured-dark {
+	background-color: #073851;
+}
+#featured-boxes li:hover {
+	background-color: #2193cd;
+}
+
+#featured-boxes h4 {
+	color: #fff;
+}
+
+#featured-boxes a,
+#featured-boxes h4 a {
+	color: #fff;
+}
+
+/* ---------------------------------------- */
+/* widgets */
+#sidebar .widgets,
+#page-content .widgets {
+	color: #666;
+	background: #f5f5f5;
+	border: 1px solid #eee;
+}
+
+#sidebar .widgets h3,
+#page-content .widgets h3 {
+	color: #666;
+}
+
+/* post meta */
+.sticky .meta-date {
+	background-color: #2193cd;
+}
