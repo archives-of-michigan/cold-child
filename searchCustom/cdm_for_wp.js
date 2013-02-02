@@ -3,28 +3,22 @@ jQuery(document).ready(function() {
 	jQuery("#search_content_adv_link").click(function () {	
 	
 		if (jQuery(this).text() == 'Advanced Search'){
-			jQuery('body').css('backgroundPosition', '0 740px');
-			//jQuery('#header_wrapper').height(180);
 			jQuery(this).text('Close Advanced');
 		
 		}else{
-			jQuery('body').css('backgroundPosition', '0 181px');
-			//jQuery('#header_wrapper').height(420);
 			jQuery(this).text('Advanced Search');
-			
 		}
 		jQuery("#adv_search").slideToggle();
 		get_collections_js();
-	
 	});
 	
 	jQuery("#simple_search_button").click(function(){
-		window.location= "http://cdm16317.contentdm.oclc.org/cdm/search/searchterm/" + jQuery("#search_content_box").val() + "/order/nosort";
+		window.location= "http://cdm15867.contentdm.oclc.org/cdm/search/searchterm/" + jQuery("#search_content_box").val() + "/order/nosort";
 	});
 	
 	jQuery('#search_content_box').keypress(function (e) {
 	  if (e.which == 13) {
-	    window.location= "http://cdm16317.contentdm.oclc.org/cdm/search/searchterm/" + jQuery("#search_content_box").val() + "/order/nosort";
+	    window.location= "http://cdm15867.contentdm.oclc.org/cdm/search/searchterm/" + jQuery("#search_content_box").val() + "/order/nosort";
 	  }
 	});
 	
@@ -112,7 +106,7 @@ jQuery(document).ready(function() {
 			conn = conn + '!' + 'and';
 			mode = mode + '!' + 'exact';
 		}
-		window.location= "http://cdm16317.contentdm.oclc.org/cdm/search" + collection + term + field + mode + conn + "/order/nosort";
+		window.location= "http://cdm15867.contentdm.oclc.org/cdm/search" + collection + term + field + mode + conn + "/order/nosort";
 	});
 	
 	function getAdvMore(n){

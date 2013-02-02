@@ -3,7 +3,7 @@
 function dmGetCollectionListAPI(){
 	require("Pest.php");
 	require("PestJSON.php"); //Pest is a client for RESTful web services
-	$pest = new PestJSON('https://server15867.contentdm.oclc.org/dmwebservices');
+	$pest = new PestJSON('https://server16317.contentdm.oclc.org/dmwebservices');
 	$cats = $pest->get('/index.php?q=dmGetCollectionList/json');
 	return $cats;
 	die();
