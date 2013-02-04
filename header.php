@@ -43,7 +43,7 @@ if($post) {
 				</div>
 				<input name="cdm_searchbox_mode" id="cdm_searchbox_mode" value="results" type="hidden">
 				<input name="searchterm" id="searchterm" value="" type="hidden">
-				<div class="search_content_container float_left" style="margin-top: 0px;">
+				<div class="search_content_container leftside" style="margin-top: 0px;">
 					<input tabindex="2" id="simple_search_button" class="search_content_button spaceMar15L" value="go" type="button">
 				</div>
 				
