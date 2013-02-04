@@ -32,10 +32,6 @@ if($post) {
 <div id="header_wrapper">
 	<div id="header">
 		<div class="leftside" id="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo $e404_options['logo_url']; ?>" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" /></a></div>
-		<div id="header_nav" class="rightside">
-			<div id="social_icons" class="leftside">
-				<?php e404_show_header_social_icons(); ?>
-			</div>
 		<div style="display: block;" id="search">
 			<div id="search_content" class="leftside">
 				<div class="search_content_container leftside">
@@ -55,11 +51,8 @@ if($post) {
 			<div class="search_content_container_advanced">
 				<div id="search_content_adv_link" tabindex="6">Advanced Search</div>
 			</div>
-		</div>
+		</div><!--- end search --->
 		<span class="clear"></span>
-		<div style="left: 881.667px; top: 55px;" id="suggested_search_terms">&nbsp;</div>
-			<input id="cdm_search_query" value="" type="hidden">
-		</div>
 	</div><!--- end header --->	
 </div><!--- ene header_wrapper --->
       	
