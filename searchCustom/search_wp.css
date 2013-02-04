@@ -75,6 +75,10 @@
     vertical-align: middle;
 }
 
+.search_content_container_advanced {
+    float: right;
+}
+
 #search_content_adv_link {
     background: none repeat scroll 0 0 #ADAFB3;
     border: medium none;
