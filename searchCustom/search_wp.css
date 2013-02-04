@@ -43,84 +43,52 @@
     margin-top: 0px;
 }
 
-.search_content_container_advanced{
-	float:right;
-	background: none repeat scroll 0 0 #A3B92F;
-    border: medium none;
-    border-radius: 20px;
-    color: #FFFFFF;
-    font-family: "lucida grande",arial;
-    font-size: 13px;
-    font-weight: normal;
-    height: 24px;
-    left: 0;
-    margin: 0;
-    margin-left:5px;
-	margin-top: 4px;
-    padding: 0 10px 0 10px;
-    position: relative;
-    text-indent: 0;
-    text-transform: uppercase;
-    top: 0;
-	cursor: pointer;
-	text-align: center;
-}
-
 #search_content_text {
     margin: 20px 10px 0 0;
 }
 
 #search_content_box {
-   
-    margin-top: 5px;
+    color: #000000;
+    font-family: "lucida grande",Verdana,Arial,Helvetica,sans-serif;
+    margin-top: 1px;
+    width: 136px;
 }
 
 .search_content_box_noresults {
     border: 0 none;
     font-size: 12px;
-    height: 15px;
-    margin: 0 5px 0 0;
-    width: 285px;
+    height: 20px;
+    width: 136px;
 }
 
 .search_content_button {
-    background: none repeat scroll 0 0 #A3B92F;
+    background: none repeat scroll 0 0 #3D98C9;
+    border: medium none;
+    border-radius: 20px 0 0 20px;
+    color: #FFFFFF;
+    font-family: "lucida grande",arial;
+    font-size: 13px;
+    font-weight: normal;
+    height: 24px;
+    margin: 0 1px 0 0;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+#search_content_adv_link {
+    background: none repeat scroll 0 0 #ADAFB3;
     border: medium none;
     border-radius: 0 20px 20px 0;
     color: #FFFFFF;
     font-family: "lucida grande",arial;
     font-size: 13px;
     font-weight: normal;
-    height: 24px;
-    left: 0;
-    line-height: 14px;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    text-indent: 0;
+    line-height: 24px;
+    padding: 0 10px;
+    text-align: center;
     text-transform: uppercase;
-    top: 0;
-    vertical-align: middle;
-    width: 35px;
-	cursor: pointer;
-	text-align: center;
-}
-
-#search_content_adv_link {
-    /*letter-spacing: -0.5px;
+    letter-spacing: -0.5px;
     margin: 0;
-	margin-top: 7px;
-	color: #336699;
-	    font-family: "lucida grande",arial;
-	    font-size: 10px;
-	    font-style: normal;
-	    font-weight: normal;
-	    text-decoration: underline;
-	cursor:pointer;
-	float:right;*/
-	margin-top: 3px;
-	text-align: center;
-	
 }
 
 

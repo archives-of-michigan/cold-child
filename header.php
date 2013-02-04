@@ -34,7 +34,7 @@ if($post) {
 		<div class="leftside" id="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo $e404_options['logo_url']; ?>" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" /></a></div>
 		<div style="display: block;" id="search">
 			<div id="search_content" class="leftside">
-				<div class="search_content_container leftside">
+				<div class="search_content_container leftside" style="margin-top: 5px;">
 					<span id="search_content_text">Search Digital Archive:</span>&nbsp;
 				</div>
 				<div class="search_content_container leftside" style="margin-top: 0px;">
