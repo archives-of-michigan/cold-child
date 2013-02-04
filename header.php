@@ -33,20 +33,169 @@ if($post) {
 			<div id="social_icons" class="leftside">
 				<?php e404_show_header_social_icons(); ?>
 			</div>
-		<?php if(!$e404_options['remove_search_form']) : ?>
-			<div id="search" class="leftside">
-				<form action="<?php echo home_url(); ?>" method="get">
-					<input type="text" name="s" value="<?php _e('Search...', 'cold'); ?>" onfocus="if (this.value == '<?php _e('Search...', 'cold'); ?>') {this.value = '';}" onblur="if (this.value == '') {this.value = '<?php _e('Search...', 'cold'); ?>';}" />
-					<input type="submit" value="<?php _e('Go', 'cold'); ?>" />
-				</form>
+		<div id="search_content" class="float_left">
+			<div style="margin-top: 5px;" class="search_content_container float_left spaceMar5T">
+				<span id="search_content_text">Search Digital Archive:</span>&nbsp;
 			</div>
-		<?php endif; ?>
+			<div class="search_content_container float_left" style="margin-top: 0px;">
+			  <input tabindex="1" id="search_content_box" name="search_content_box" class="search_content_box_noresults" value="" autocomplete="off" type="text">
+			  <input id="search_results_button_mode" value="0" type="hidden">
+			</div>
+			<input name="cdm_searchbox_mode" id="cdm_searchbox_mode" value="results" type="hidden">
+		        <input name="searchterm" id="searchterm" value="" type="hidden">
+			<div class="search_content_container float_left" style="margin-top: 0px;">
+				<input tabindex="2" id="simple_search_button" class="search_content_button spaceMar15L" value="go" type="button">
+			</div>
+			
 		</div>
+		<div class="search_content_container_advanced">
+			<div id="search_content_adv_link" tabindex="6">Advanced Search</div>
+		</div>
+		<span class="clear"></span>
+		<div style="left: 881.667px; top: 55px;" id="suggested_search_terms">&nbsp;</div>
+			<input id="cdm_search_query" value="" type="hidden">
+		</div>
+	</div><!--- end header --->	
+</div><!--- ene header_wrapper --->
+      	
+<div id="adv_search">
+	<div id="adv_search_content" class="leftside">
+		<div id="adv_search_col_1">
+			<h2 class="cdm_style leftside" style="margin-bottom:0;">Find results with:</h2>
+			<div id="adv_search_error" class="leftside spacePad10T spacePad10L spaceMar10L ui-state-error ui-corner-all" style="display:none;height:24px;width:500px;">
+					<span class="icon_10 ui-icon-alert"></span>
+						error div
+			</div>
+			<span class="clear"></span>
+			<ul id="adv_search_query_builder_list" style="float:left;padding:0;margin:0;margin-bottom:15px;list-style-type:none;">
+					<li id="rid0" class="adv_search_row ">
+						<ul class="adv_search_ul_row">
+							<li class="leftside">
+								<select id="rid0_mode" class="adv_search_type_dd" >
+									<option selected="selected" value="all">All of the words</option>
+									<option value="any">Any of the words</option>
+									<option value="exact">The exact phrase</option>
+									<option value="none">None of the words</option>
+								</select>
+							</li>
+							<li class="leftside spaceMar5L">
+								<input id="rid0_term" class="adv_search_str" type="text" value="">
+							</li>
+							<li class="leftside spaceMar5L spacePad5">in</li>
+							<li class="leftside spaceMar5L">
+								<select id="rid0_field" class="adv_search_domain_dd">
+								<option selected="selected" value="all">All fields</option>
+								<option value="title">Title</option>
+								<option value="subjec">Subject</option>
+								<option value="descri">Description</option>
+								<option value="date">Date</option>
+							</select>
+						</li>
+						<li class="leftside spaceMar5L">
+							<select id="rid0_connector" class="adv_search_and_or_dd">
+								<option selected="selected" value="and">and</option>
+								<option value="or">or</option>
+							</select>
+						</li>
+						<li class="adv_search_option_remove_link_box leftside spaceMar10L spacePad5">
+							<a class="remove_adv_search_row_link action_link_10" href="javascript://" rid="rid0"></a>
+						</li>
+					</ul>
+					<span class="clear"></span>
+				</li>
+				<li id="rid1" class="adv_search_row adv_search_row_bgcolor">
+					<ul class="adv_search_ul_row">
+					<li class="leftside">
+					<select id="rid1_mode" class="adv_search_type_dd">
+						<option selected="selected" value="all">All of the words</option>
+						<option value="any">Any of the words</option>
+						<option value="exact">The exact phrase</option>
+						<option value="none">None of the words</option>
+					</select>
+				</li>
+				<li class="leftside spaceMar5L">
+					<input id="rid1_term" class="adv_search_str" type="text" value="">
+				</li>
+				<li class="leftside spaceMar5L spacePad5">in</li>
+				<li class="leftside spaceMar5L">
+					<select id="rid1_field" class="adv_search_domain_dd">
+						<option selected="selected" value="all">All fields</option>
+						<option value="title">Title</option>
+						<option value="subjec">Subject</option>
+						<option value="descri">Description</option>
+						<option value="date">Date</option>
+					</select>
+				</li>
+				<li class="leftside spaceMar5L">
+					<select id="rid1_connector" class="adv_search_and_or_dd">
+						<option selected="selected" value="and">and</option>
+						<option value="or">or</option>
+					</select>
+				</li>
+				<li class="adv_search_option_remove_link_box leftside spaceMar10L spacePad5">
+					<a class="remove_adv_search_row_link action_link_10" href="javascript://" rid="rid1">remove</a>
+				</li>
+			</ul>
+			<span class="clear"></span>
+		</li>
+	</ul>
+	<span class="clear"></span>
+	<div>
+		<a id="adv_search_add_field_link" class="action_link_10" href="javascript://">Add another field</a>
 	</div>
-</div>
-		<div id="navigation">
-		<?php wp_nav_menu(array('theme_location' => 'header-menu', 'container' => false, 'menu_class' => 'sf-menu')); ?>
-			<br class="clear" />
+	<span class="clear"></span>
+	<div id="adv_search_col_1_bottom" class="spaceMar10T">
+	<span id="icon_adv_search_datearrow" class="icon_10 icon_adv_search ui-icon-triangle-1-e"></span>
+	<span class="icon_10 icon_adv_search ui-icon-calendar"></span>
+	<div id="adv_search_by_date_link" class="action_link_10">Search by date</div>
+	<div id="adv_search_by_date_container" class="spaceMar10T">
+	<ul id="adv_search_datepicker_list" style="list-style-type:none;padding:0;margin:0;">
+	<li class="leftside">
+	<select id="adv_search_date_range" class="adv_search_date_range">
+	<option selected="selected" value="from">from</option>
+	<option value="after">after</option>
+	<option value="before">before</option>
+	<option value="on">on</option>
+	</select>
+	</li>
+	<li class="leftside spaceMar15L">
+	<input id="datepicker1" class="datestring" type="text" value="mm/dd/yyyy">
+	</li>
+	<li class="leftside spaceMar15L spacePad5">
+	<span id="datepickerTo">to</span>
+	</li>
+	<li class="leftside spaceMar15L">
+	<input id="datepicker2" class="datestring" type="text" value="mm/dd/yyyy">
+	</li>
+	</ul>
+
+	</div>
+	</div>
+		<span class="clear"></span>
+		<div class="spaceMar15R spaceMar15T leftside">
+			<input id="advanced_search_button" class="search_content_button" type="button" value="Search">
 		</div>
+
+		<span class="clear"></span>
+	</div>
+	</div>
+		<div id="adv_search_col_2">
+			<h3 class="cdm_style">Searching collections:</h3>
+	
+			<span class="clear"></span>
+			<div>
+				<!---<a id="advanced_max_collections_link" class="action_link_10" href="javascript://"> Add or remove collections </a>--->
+				<img id="advanced_max_collections_link" src="http://dnr.seekingmichigan.org//wp-includes/js/tinymce/themes/advanced/skins/default/img/progress.gif" >
+			</div>
+		</div>
+		<span class="clear"></span>
+
+	</div>
+	
+<span class="clear"></span>
+<div id="navigation">
+	<?php wp_nav_menu(array('theme_location' => 'header-menu', 'container' => false, 'menu_class' => 'sf-menu')); ?>
+		<br class="clear" />
+</div>
 <div id="wrapper">
 	
