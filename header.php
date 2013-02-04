@@ -186,7 +186,6 @@ if($post) {
 	</div>
 		<div id="adv_search_col_2">
 			<h3 class="cdm_style">Searching collections:</h3>
-	
 			<span class="clear"></span>
 			<div>
 				<!---<a id="advanced_max_collections_link" class="action_link_10" href="javascript://"> Add or remove collections </a>--->
