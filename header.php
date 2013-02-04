@@ -34,7 +34,7 @@ if($post) {
 		<div class="leftside" id="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo $e404_options['logo_url']; ?>" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" /></a></div>
 		<div style="display: block;" id="search">
 			<div id="search_content" class="leftside">
-				<div class="search_content_container leftside" style="margin-top: 5px;">
+				<div class="search_content_container leftside" style="margin-top: 2px;">
 					<span id="search_content_text">Search Digital Archive:</span>&nbsp;
 				</div>
 				<div class="search_content_container leftside" style="margin-top: 0px;">
@@ -44,7 +44,7 @@ if($post) {
 				<input name="cdm_searchbox_mode" id="cdm_searchbox_mode" value="results" type="hidden">
 				<input name="searchterm" id="searchterm" value="" type="hidden">
 				<div class="search_content_container leftside" style="margin-top: 0px;">
-					<input tabindex="2" id="simple_search_button" class="search_content_button spaceMar15L" value="go" type="button">
+					<input tabindex="2" id="simple_search_button" class="search_content_button" value="go" type="button">
 				</div>
 				
 			</div>
