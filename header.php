@@ -36,23 +36,25 @@ if($post) {
 			<div id="social_icons" class="leftside">
 				<?php e404_show_header_social_icons(); ?>
 			</div>
-		<div id="search_content" class="float_left">
-			<div style="margin-top: 5px;" class="search_content_container float_left spaceMar5T">
-				<span id="search_content_text">Search Digital Archive:</span>&nbsp;
+		<div style="display: block;" id="search">
+			<div id="search_content" class="leftside">
+				<div class="search_content_container leftside">
+					<span id="search_content_text">Search Digital Archive:</span>&nbsp;
+				</div>
+				<div class="search_content_container leftside" style="margin-top: 0px;">
+				  <input id="search_content_box" name="search_content_box" class="search_content_box_noresults" value="" autocomplete="off" type="text">
+				  <input id="search_results_button_mode" value="0" type="hidden">
+				</div>
+				<input name="cdm_searchbox_mode" id="cdm_searchbox_mode" value="results" type="hidden">
+				<input name="searchterm" id="searchterm" value="" type="hidden">
+				<div class="search_content_container float_left" style="margin-top: 0px;">
+					<input tabindex="2" id="simple_search_button" class="search_content_button spaceMar15L" value="go" type="button">
+				</div>
+				
 			</div>
-			<div class="search_content_container float_left" style="margin-top: 0px;">
-			  <input tabindex="1" id="search_content_box" name="search_content_box" class="search_content_box_noresults" value="" autocomplete="off" type="text">
-			  <input id="search_results_button_mode" value="0" type="hidden">
+			<div class="search_content_container_advanced">
+				<div id="search_content_adv_link" tabindex="6">Advanced Search</div>
 			</div>
-			<input name="cdm_searchbox_mode" id="cdm_searchbox_mode" value="results" type="hidden">
-		        <input name="searchterm" id="searchterm" value="" type="hidden">
-			<div class="search_content_container float_left" style="margin-top: 0px;">
-				<input tabindex="2" id="simple_search_button" class="search_content_button spaceMar15L" value="go" type="button">
-			</div>
-			
-		</div>
-		<div class="search_content_container_advanced">
-			<div id="search_content_adv_link" tabindex="6">Advanced Search</div>
 		</div>
 		<span class="clear"></span>
 		<div style="left: 881.667px; top: 55px;" id="suggested_search_terms">&nbsp;</div>
@@ -188,7 +190,7 @@ if($post) {
 			<span class="clear"></span>
 			<div>
 				<!---<a id="advanced_max_collections_link" class="action_link_10" href="javascript://"> Add or remove collections </a>--->
-				<img id="advanced_max_collections_link" src="http://dnr.seekingmichigan.org//wp-includes/js/tinymce/themes/advanced/skins/default/img/progress.gif" >
+				<img id="advanced_max_collections_link" src="http://seekingmichigan.org//wp-includes/js/tinymce/themes/advanced/skins/default/img/progress.gif" >
 			</div>
 		</div>
 		<span class="clear"></span>
