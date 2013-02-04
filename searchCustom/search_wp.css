@@ -125,11 +125,9 @@
 }
 
 #adv_search_col_2 {
-	padding: 10px 0 0 20px;
-	float: left;
-	margin-left: 100px;
-	font-size: 11px;
-	height: 530px;
+    float: left;
+    margin-left: 10px;
+    padding: 10px 0 0 20px;
 }
 
 #adv_search_query_builder_list li input.adv_search_str {
