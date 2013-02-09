@@ -19,7 +19,7 @@ while ( have_posts() ) : the_post(); ?>
 	$portfolio_url = "http://cdm15867.contentdm.oclc.org/cdm/search/collection/".$portfolio_cdmid;
 ?>
 
-<?php if($e404_options['page_titles']) : ?><div id="Portfolio-title"><h2><?php the_title(); ?></h2></div><?php endif; ?>
+<?php if($e404_options['page_titles']) : ?><div id="portfolio-title"><h2><?php the_title(); ?></h2></div><?php endif; ?>
 <div id="contentdm-button"><a href="<?php echo $portfolio_url; ?>">View Entire Collection</a></div>
 <br class="clear" />
 <?php if($e404_options['portfolio_item_categories']) : ?>
