@@ -12,15 +12,7 @@ get_header(); ?>
 		<div class="portfolio portfolio-page">
 <?php
 while ( have_posts() ) : the_post(); ?>
-<?php
-	$portfolio_page_id = get_option('e404_portfolio_page');
-	$portfolio_page = get_page($portfolio_page_id);
-	$portfolio_cdmid = get_post_meta($post->ID, 'wpcf-cdmid', true);
-	$portfolio_url = "http://cdm15867.contentdm.oclc.org/cdm/search/collection/".$portfolio_cdmid;
-?>
-
-<?php if($e404_options['page_titles']) : ?><h2><?php the_title(); ?></h2><?php endif; ?>
-<div id="contentdm-button">View Entire Collection</div>
+			<?php if($e404_options['page_titles']) : ?><h2><?php the_title(); ?></h2><?php endif; ?>
 <?php if($e404_options['portfolio_item_categories']) : ?>
 			<div class="portfolio-meta">
 				<div class="posted-meta"><span><?php echo e404_get_taxonomy_name('categories'); ?>:</span> <?php the_terms($post->ID, 'portfolio-category', '', ', '); ?></div>
