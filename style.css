@@ -1550,15 +1550,18 @@ ul.portfolio-columns {
 	background: none repeat scroll 0 0 #3D98C9;
 	border: medium none;
 	border-radius: 20px;
+	height: 24px;
+	margin: 0 1px 0 0;
+	padding: 6px 15px 0px;
+	vertical-align: middle;
+}
+
+#contentdm-button a {
 	color: #FFFFFF;
 	font-family: "lucida grande",arial;
 	font-size: 13px;
 	font-weight: normal;
-	height: 24px;
-	margin: 0 1px 0 0;
-	padding: 1px 6px 3px;
 	text-transform: uppercase;
-	vertical-align: middle;
 }
 	
 
