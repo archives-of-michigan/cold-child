@@ -20,7 +20,7 @@ while ( have_posts() ) : the_post(); ?>
 ?>
 
 <?php if($e404_options['page_titles']) : ?><h2><?php the_title(); ?></h2><?php endif; ?>
-<div id="contentdm-button">View Entire Collection</div>
+<div id="contentdm-button"><a href="<?php echo $portfolio_url; ?>">View Entire Collection</a></div>
 <?php if($e404_options['portfolio_item_categories']) : ?>
 			<div class="portfolio-meta">
 				<div class="posted-meta"><span><?php echo e404_get_taxonomy_name('categories'); ?>:</span> <?php the_terms($post->ID, 'portfolio-category', '', ', '); ?></div>
