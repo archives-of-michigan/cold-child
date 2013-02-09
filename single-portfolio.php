@@ -15,7 +15,7 @@ while ( have_posts() ) : the_post(); ?>
 <?php
 	$portfolio_page_id = get_option('e404_portfolio_page');
 	$portfolio_page = get_page($portfolio_page_id);
-	$portfolio_cdmid = get_post_meta($post->ID, 'wpcf-cdmid', true);
+	$portfolio_cdmid = get_post_meta($post->ID, 'wpcf-wpcf-cdmid', true);
 	$portfolio_url = "http://cdm15867.contentdm.oclc.org/cdm/search/collection/".$portfolio_cdmid;
 ?>
 
