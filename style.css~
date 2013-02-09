@@ -124,7 +124,7 @@ img {
 	width: 990px;
 	margin: 0 auto;
 	min-height: 150px;
-	background: url('images/light-y.png') 50% 0 repeat-y;
+	background: none;
 }
 #logo {
 	margin-left: 20px;
