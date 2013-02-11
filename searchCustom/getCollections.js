@@ -1,4 +1,7 @@
 function get_collections_js(){
+	//using ajax with Wordpress
+	//requires setup in functions.php
+	//sets up function for call via PHP function in getCollections.php
 	jQuery.ajax({
 		url: my_collections_ajax.ajaxurl,
 		data:({action : 'getCollectionSelect'}),
@@ -6,9 +9,10 @@ function get_collections_js(){
 	}).done(function( html ) {
 		jQuery("#advanced_max_collections_link").parent().append(html);
 		jQuery("#advanced_max_collections_link").remove();
+		/* no death records on DNR
 		jQuery('.collBoxes').click(function(){
 			deathBoxes();
-		});
+		});*/
 	});
 	
 }
