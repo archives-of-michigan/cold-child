@@ -74,6 +74,7 @@
     padding: 1px 6px 3px;
     text-transform: uppercase;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .search_content_container_advanced {
@@ -94,6 +95,7 @@
     text-transform: uppercase;
     letter-spacing: -0.5px;
     margin: 0;
+    cursor: pointer;
 }
 
 
