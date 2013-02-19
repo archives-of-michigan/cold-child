@@ -1,22 +1,27 @@
 <?php
 /**
- * Template name: Portfolio - Wildlife
+ * Template name: Portfolio - Marketing & Outreach 
  *
  */
 
 get_header();
 
-// Show only items that are in the wildlife portfolio-category
+// Show only items that are in the marketing-outreach portfolio-category
 
 $taxonomy = "portfolio-category";
-$term = "wildlife";
+$term = "marketing-outreach";
 
 ?>
 	
 	<div id="main_wrapper">
 		<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
-		<div class="portfolio portfolio-columns">		
+		<?php include(OF_FILEPATH.'/portfolio-intro-box.php'); ?>
+		 <div class="portfolio portfolio-columns">
 
+<?php
+	$portfolio_url = "http://cdm15867.contentdm.oclc.org/cdm/search/collection/p15559coll1";
+?>
+		 
 <?php
 $query = "paged=".$paged."&post_type=portfolio&orderby=menu_order date&posts_per_page=".$e404_options['portfolio_posts_per_page'];
 if(isset($taxonomy))
@@ -26,14 +31,6 @@ if(isset($term))
 $i = 0;
 $custom_query = new WP_Query($query);
 if($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); $i++; ?>
-				
-				<?php
-					$portfolio_page_id = get_option('e404_portfolio_page');
-					$portfolio_page = get_page($portfolio_page_id);
-					$portfolio_cdmid = get_post_meta($post->ID, 'wpcf-wpcf-cdmid', true);
-					$portfolio_url = "http://cdm15867.contentdm.oclc.org/cdm/search/collection/p15559coll1";
-				?>
-
 				<div class="one_half portfolio-item<?php if($i % 2 == 0) echo ' last'; ?>" id="post-<?php the_ID(); ?>">
 					<?php
 					if (has_post_thumbnail()) {
@@ -55,7 +52,7 @@ if($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_
 					<?php if($e404_options['portfolio_excerpts']) { the_excerpt(''); } ?>
 
 				<?php if(!is_single() && $e404_options['portfolio_read_more']) : ?>
-					<p class="more"><a href="<?php echo $portfolio_url; ?>">View Entire Collection</a></p>
+					<p class="more"><a href="<?php the_permalink(); ?>"><?php echo($e404_options['portfolio_read_more_text']); ?></a></p>
 				<?php endif; ?>
 
 				</div>
