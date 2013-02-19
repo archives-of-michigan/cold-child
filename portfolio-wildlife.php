@@ -6,7 +6,7 @@
 
 get_header();
 
-// Show only items that are in the primarysources portfolio-category
+// Show only items that are in the wildlife portfolio-category
 
 $taxonomy = "portfolio-category";
 $term = "wildlife";

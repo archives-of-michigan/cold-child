@@ -1,15 +1,15 @@
 <?php
 /**
- * Template name: Wildlife Portfolio - 2 columns without sidebar
+ * Template name: Archives Portfolio - 2 columns without sidebar
  *
  */
 
 get_header();
 
-// Show only items that are in the primarysources portfolio-category
+// Show only items that are in the arhives portfolio-category
 
 $taxonomy = "portfolio-category";
-$term = "wildlife";
+$term = "archives";
 
 ?>
 	

@@ -1,17 +1,10 @@
 <?php
 /**
- * Template name: Wildlife Portfolio - 2 columns without sidebar
+ * Template name: Portfolio - 2 columns without sidebar
  *
  */
 
-get_header();
-
-// Show only items that are in the primarysources portfolio-category
-
-$taxonomy = "portfolio-category";
-$term = "wildlife";
-
-?>
+get_header(); ?>
 	
 	<div id="main_wrapper">
 		<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
