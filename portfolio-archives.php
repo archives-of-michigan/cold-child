@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Archives Portfolio - 2 columns without sidebar
+ * Template name: Portfolio - Archives
  *
  */
 

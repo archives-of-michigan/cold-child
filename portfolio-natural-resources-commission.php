@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Natural Resources Commission Portfolio - 2 columns without sidebar
+ * Template name: Portfolio - Natural Resources Commission 
  *
  */
 
@@ -9,7 +9,7 @@ get_header();
 // Show only items that are in the natural-resources-commission portfolio-category
 
 $taxonomy = "portfolio-category";
-$term = "natural-resources-commission";
+$term = "natural-resources-commisson";
 
 ?>
 	

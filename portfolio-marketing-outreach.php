@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: Marketing & Outreach Portfolio - 2 columns without sidebar
+ * Template name: Portfolio - Marketing & Outreach 
  *
  */
 
@@ -8,7 +8,7 @@ get_header();
 
 // Show only items that are in the marketing-outreach portfolio-category
 
-$taxonomy = "discover-category";
+$taxonomy = "portfolio-category";
 $term = "marketing-outreach";
 
 ?>
@@ -16,7 +16,7 @@ $term = "marketing-outreach";
 	<div id="main_wrapper">
 		<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
 		<?php include(OF_FILEPATH.'/portfolio-intro-box.php'); ?>
-		<div class="portfolio portfolio-columns">
+		 <div class="portfolio portfolio-columns">
 
 <?php
 $query = "paged=".$paged."&post_type=portfolio&orderby=menu_order date&posts_per_page=".$e404_options['portfolio_posts_per_page'];
