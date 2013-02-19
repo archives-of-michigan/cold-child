@@ -15,8 +15,14 @@ $term = "wildlife";
 	
 	<div id="main_wrapper">
 		<?php if($e404_options['breadcrumbs']) : ?><div id="breadcrumb"><?php e404_breadcrumbs(); ?></div><?php endif; ?>
-		<?php include(OF_FILEPATH.'/portfolio-intro-box.php'); ?>
 		<div class="portfolio portfolio-columns">
+
+<?php
+	$portfolio_page_id = get_option('e404_portfolio_page');
+	$portfolio_page = get_page($portfolio_page_id);
+	$portfolio_cdmid = get_post_meta($post->ID, 'wpcf-wpcf-cdmid', true);
+	$portfolio_url = "http://cdm15867.contentdm.oclc.org/cdm/search/collection/".$portfolio_cdmid;
+?>		
 
 <?php
 $query = "paged=".$paged."&post_type=portfolio&orderby=menu_order date&posts_per_page=".$e404_options['portfolio_posts_per_page'];
@@ -48,7 +54,7 @@ if($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_
 					<?php if($e404_options['portfolio_excerpts']) { the_excerpt(''); } ?>
 
 				<?php if(!is_single() && $e404_options['portfolio_read_more']) : ?>
-					<p class="more"><a href="<?php the_permalink(); ?>"><?php echo($e404_options['portfolio_read_more_text']); ?></a></p>
+					<p class="more"><a href="<?php echo $portfolio_url; ?>">View Entire Collection</a></p>
 				<?php endif; ?>
 
 				</div>
