@@ -19,6 +19,10 @@ $term = "marketing-outreach";
 		 <div class="portfolio portfolio-columns">
 
 <?php
+	$portfolio_url = "http://cdm15867.contentdm.oclc.org/cdm/search/collection/p15559coll1";
+?>
+		 
+<?php
 $query = "paged=".$paged."&post_type=portfolio&orderby=menu_order date&posts_per_page=".$e404_options['portfolio_posts_per_page'];
 if(isset($taxonomy))
 	$query .= "&taxonomy=".$taxonomy;
